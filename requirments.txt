@@ -1,0 +1,15 @@
+certifi==2018.11.29
+chardet==3.0.4
+flake8==3.6.0
+idna==2.8
+mccabe==0.6.1
+oauthlib==2.1.0
+pycodestyle==2.4.0
+pyflakes==2.0.0
+PySocks==1.6.8
+requests==2.21.0
+requests-oauthlib==1.0.0
+six==1.12.0
+speedtest-cli==2.0.2
+twitter==1.18.0
+urllib3==1.24.1
