@@ -36,10 +36,10 @@ def test():
     out_file.close()
 
     # connect to twitter
-    TOKEN=""
-    TOKEN_KEY=""
-    CON_SEC=""
-    CON_SEC_KEY=""
+    TOKEN=os.getenv("TOKEN", "")
+    TOKEN_KEY=os.getenv("TOKEN_KEY", "")
+    CON_SEC=os.getenv("CON_SEC", "")
+    CON_SEC_KEY=os.getenv("CON_SEC_KEY", "")
 
     my_auth = twitter.OAuth(TOKEN, TOKEN_KEY, CON_SEC, CON_SEC_KEY)
     twit = twitter.Twitter(auth=my_auth)
